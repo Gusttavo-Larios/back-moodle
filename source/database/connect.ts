@@ -1,4 +1,3 @@
-// import mysql from 'mysql'
 import mysql from 'mysql2'
 
 export function connect() {
@@ -8,14 +7,6 @@ export function connect() {
     password: process.env.PASSWORD,
     database: process.env.DATABASE
   })
-
-  // connect.connect((error) => {
-  //   if (error) {
-  //     console.log(error)
-  //   } else {
-  //     console.log('Sucesso!')
-  //   }
-  // })
 
   return connect
 }
