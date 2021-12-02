@@ -7,7 +7,7 @@ Projeto desenvolvido utilizando NodeJS</span>, para prática de desenvolvimento 
 ### Primeiro passo
 
 Clone o repositório
-`git clone https://github.com/Gusttavo-Larios/front-moodle.git`
+`git clone https://github.com/Gusttavo-Larios/back-moodle.git`
 
 ### Segundo passo
 
@@ -17,4 +17,4 @@ Instale as dependências
 ### Terceiro passo
 
 Execute o projeto
-`yarn start`
+`yarn stdev`
